@@ -40,7 +40,7 @@
     margin-top: 10px;
 }
 
-i{
+i {
     color: #2ebcae;
 }
 
@@ -54,13 +54,13 @@ i{
     padding-left: 30px;
 }
 
-.sub-skill{
+.sub-skill {
     width: 100%;
     padding-left: 43px;
 }
 
 
-.skill{
+.skill {
     font-size: 18px;
     font-weight: 500;
     color: #2ebcae;
@@ -68,16 +68,16 @@ i{
 }
 
 
-ul li::marker{
+ul li::marker {
     color: red;
     font-size: 1.5em;
 }
 
-a{
+a {
     text-decoration: underline;
 }
 
-.image-ava{
+.image-ava {
     border-radius: 50%;
     object-fit: cover;
     object-position: center top;
@@ -85,25 +85,47 @@ a{
     height: 170px;
 }
 
-.personal-info .banner{
+.personal-info .banner {
     padding: 0;
 }
 
-.personal-info .sub-skill{
+.personal-info .sub-skill {
     padding: 0;
 }
 
-.education{
+.education {
     word-break: break-word;
 }
 
-.team-project{
+.team-project {
     margin-top: -8px;
 }
 
-.technical-skills{
+.technical-skills {
     margin-top: 29px;
 }
+
+
+ul {
+    list-style-type: none;
+}
+
+
+ul li::before {
+    content: "\2022";
+    color: #2ebcae;
+    font-weight: bold;
+    display: inline-block;
+    width: 10px;
+    margin-left: -1em;
+}
+
+
+.time-line-box ul li::before {
+    content: unset;
+
+}
+
 
 /* -------------------------------------
 * timeline
@@ -136,6 +158,7 @@ a{
     font-size: 13px;
     line-height: 20px;
     position: absolute;
+    font-weight: bold;
 }
 
 .circle {
@@ -284,12 +307,4 @@ label {
     }
 }
 
-ul {
-    list-style-type: square;
-}
 
-
-ul li:before {
-    background-color: red;
-    color: red;
-}
