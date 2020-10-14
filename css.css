@@ -5,9 +5,12 @@
 }
 
 .my-cv {
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
     margin-bottom: 80px;
 }
 
@@ -16,12 +19,11 @@
     color: #fff;
     padding: 15px;
     border-radius: 3px;
-
 }
 
 .full-name {
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1;
 }
 
@@ -57,14 +59,12 @@ i {
     padding-left: 70px;
 }
 
-
 .skill {
     font-size: 18px;
     font-weight: 500;
     color: #2ebcae;
     text-transform: uppercase;
 }
-
 
 ul li::marker {
     color: red;
@@ -103,11 +103,9 @@ a {
     margin-top: 29px;
 }
 
-
 ul {
     list-style-type: none;
 }
-
 
 ul li::before {
     content: "\2022";
@@ -118,12 +116,11 @@ ul li::before {
     margin-left: -1em;
 }
 
-
 .time-line-box ul li::before {
     content: unset;
 }
 
-.information{
+.information {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -137,7 +134,7 @@ ul li::before {
     color: #fff;
 }
 
-.project-sub{
+.project-sub {
     padding-left: 43px;
     padding-top: 10px;
 }
@@ -145,11 +142,12 @@ ul li::before {
 /* -------------------------------------
 * timeline
 * ------------------------------------- */
+
 #timeline {
     list-style: none;
     margin-left: 120px;
     padding-left: 30px;
-    border-left: 8px solid #eee9dc;
+    border-left: 8px solid silver;
 }
 
 #timeline li {
@@ -160,7 +158,6 @@ ul li::before {
 #timeline p {
     margin: 0 0 15px;
 }
-
 
 .time-line-box {
     padding: 10px;
@@ -198,8 +195,7 @@ ul li::before {
     border: thin solid #2ebcae;
 }
 
-.content:before,
-.content:after {
+.content:before, .content:after {
     content: "";
     width: 0;
     height: 0;
@@ -211,16 +207,16 @@ ul li::before {
 
 .content:before {
     border-right-color: inherit;
-    border-width: 20px;
+    border-width: 10px;
     top: 50%;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .content:after {
-    border-right-color: #48b379;
-    border-width: 17px;
+    border-right-color: #2ebcae;
+    border-width: 9px;
     top: 50%;
-    margin-top: -17px;
+    margin-top: -9px;
 }
 
 .content p {
@@ -245,16 +241,16 @@ label {
     display: none;
 }
 
-.radio:checked + .relative label {
+.radio:checked+.relative label {
     cursor: auto;
     transform: translateX(42px);
 }
 
-.radio:checked + .relative .circle {
+.radio:checked+.relative .circle {
     background: #f98262;
 }
 
-.radio:checked ~ .content {
+.radio:checked~.content {
     max-height: 280px;
     border-color: #f98262;
     margin-right: 20px;
@@ -262,7 +258,7 @@ label {
     width: 100%;
 }
 
-.radio:checked ~ .content p {
+.radio:checked~.content p {
     max-height: 200px;
     color: #eee9dc;
     transition: color 0.3s linear 0.3s;
@@ -271,13 +267,13 @@ label {
 /* -------------------------------------
 * mobile phones (vertical version only)
 * ------------------------------------- */
+
 @media screen and (max-width: 767px) {
     #timeline {
         margin-left: 0;
         padding-left: 0;
         border-left: none;
     }
-
     label {
         width: 85%;
         font-size: 1.1em;
@@ -287,14 +283,10 @@ label {
         display: block;
         transform: translateX(18px);
     }
-
-
-    .content:before,
-    .content:after {
+    .content:before, .content:after {
         border: solid transparent;
         bottom: 100%;
     }
-
     .content:before {
         border-bottom-color: inherit;
         border-width: 17px;
@@ -302,7 +294,6 @@ label {
         left: 50px;
         margin-left: -17px;
     }
-
     .content:after {
         border-bottom-color: #48b379;
         border-width: 20px;
@@ -310,16 +301,11 @@ label {
         left: 50px;
         margin-left: -20px;
     }
-
     .content p {
         font-size: 0.9em;
         line-height: 1.4;
     }
-
-    .circle,
-    .date {
+    .circle, .date {
         display: none;
     }
 }
-
-
