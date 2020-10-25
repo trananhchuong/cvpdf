@@ -22,7 +22,8 @@
 }
 
 .full-name {
-    font-size: 35px;
+    /* font-size: 35px; */
+    font-size: 28px;
     font-weight: 500;
     line-height: 1;
 }
@@ -31,7 +32,8 @@
     font-size: 25px;
     font-weight: 300;
     border-bottom: 1px solid;
-    width: 300px;
+    /* width: 300px; */
+    width: 280px;
 }
 
 .objective {
