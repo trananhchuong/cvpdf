@@ -310,8 +310,9 @@ label {
     .circle, .date {
         display: none;
     }
-    .footer-hide {
-        margin-top: 100px;
-        visibility: hidden;
-    }
+}
+
+.footer-hide {
+    margin-top: 200px;
+    visibility: hidden;
 }
