@@ -1,0 +1,349 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.my-cv {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.my-cv ul {
+  list-style-type: none;
+}
+
+.my-cv ul li::marker {
+  color: red;
+  font-size: 1.5em;
+}
+
+.my-cv ul li::before {
+  content: "\2022";
+  color: #2ebcae;
+  font-weight: bold;
+  display: inline-block;
+  width: 10px;
+  margin-left: -1em;
+}
+
+.my-cv a {
+  text-decoration: underline;
+}
+
+.my-cv .personal-info .ava .image-ava {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+  width: 170px;
+  height: 170px;
+}
+
+.my-cv .personal-info .info-objective {
+  background-color: #2ebcae;
+  color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.my-cv .personal-info .info-objective .information {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.my-cv .personal-info .info-objective .information i {
+  color: #fff;
+}
+
+.my-cv .personal-info .info-objective .information a {
+  color: #fff;
+}
+
+.my-cv .personal-info .info-objective .information .full-name {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.my-cv .personal-info .info-objective .information .position {
+  font-size: 25px;
+  font-weight: 300;
+  border-bottom: 1px solid;
+  width: 280px;
+}
+
+.my-cv .personal-info .info-objective .objective {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.my-cv .personal-info .banner {
+  padding: 0;
+}
+
+.my-cv .personal-info .sub-skill {
+  padding: 0;
+}
+
+.my-cv .technical-skills {
+  margin-top: 29px;
+}
+
+.my-cv .technical-skills .skill {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2ebcae;
+  text-transform: uppercase;
+}
+
+.my-cv .sub-skill {
+  width: 100%;
+  padding-left: 70px;
+}
+
+.my-cv .team-project {
+  margin-top: -8px;
+}
+
+.my-cv .team-project .time-line-box {
+  padding: 10px;
+}
+
+.my-cv .team-project .time-line-box ul li::before {
+  content: unset;
+}
+
+.my-cv .team-project .time-line-box #timeline {
+  list-style: none;
+  margin-left: 120px;
+  padding-left: 30px;
+  border-left: 8px solid silver;
+}
+
+.my-cv .team-project .time-line-box #timeline li {
+  margin-top: 10px;
+  position: relative;
+}
+
+.my-cv .team-project .time-line-box #timeline p {
+  margin: 0 0 15px;
+}
+
+.my-cv .team-project .time-line-box #timeline .ul-project li {
+  margin-top: 0;
+  padding-left: 8px;
+}
+
+.my-cv .team-project .time-line-box #timeline .ul-project li::marker {
+  font-size: unset;
+  content: "\2022";
+  color: #2ebcae;
+  font-weight: bold;
+  display: inline-block;
+  width: 10px;
+  margin-left: -1em;
+}
+
+.my-cv .team-project .time-line-box #timeline .date {
+  margin-top: -10px;
+  top: 50%;
+  left: -160px;
+  font-size: 13px;
+  line-height: 20px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.my-cv .team-project .time-line-box #timeline .circle {
+  margin-top: -10px;
+  top: 50%;
+  left: -44px;
+  width: 20px;
+  height: 20px;
+  background: #48b379;
+  border: 5px solid #eee9dc;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+.my-cv .team-project .time-line-box #timeline .content {
+  max-height: 390px;
+  padding: 10px;
+  border-radius: 0.5em;
+  position: relative;
+  width: 100%;
+  border: thin solid #2ebcae;
+}
+
+.my-cv .team-project .time-line-box #timeline .content:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  position: absolute;
+  pointer-events: none;
+  right: 100%;
+  border-right-color: inherit;
+  border-width: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.my-cv .team-project .time-line-box #timeline .content:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  position: absolute;
+  pointer-events: none;
+  right: 100%;
+  border-right-color: #2ebcae;
+  border-width: 9px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+.my-cv .team-project .time-line-box #timeline .content p {
+  max-height: 0;
+  color: transparent;
+  text-align: justify;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  overflow: hidden;
+}
+
+.my-cv .team-project .time-line-box #timeline label {
+  font-size: 1.3em;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  top: 20px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+.my-cv .team-project .time-line-box #timeline .radio {
+  display: none;
+}
+
+.my-cv .team-project .time-line-box #timeline .radio:checked + .relative label {
+  cursor: auto;
+  -webkit-transform: translateX(42px);
+          transform: translateX(42px);
+}
+
+.my-cv .team-project .time-line-box #timeline .radio:checked + .relative .circle {
+  background: #f98262;
+}
+
+.my-cv .team-project .time-line-box #timeline .radio:checked ~ .content {
+  max-height: 390px;
+  border-color: #f98262;
+  margin-right: 20px;
+  -webkit-transition: max-height 0.4s linear, border-color 0.5s linear, -webkit-transform 0.2s linear;
+  transition: max-height 0.4s linear, border-color 0.5s linear, -webkit-transform 0.2s linear;
+  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
+  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear, -webkit-transform 0.2s linear;
+  width: 100%;
+}
+
+.my-cv .team-project .time-line-box #timeline .radio:checked ~ .content p {
+  max-height: 200px;
+  color: #eee9dc;
+  -webkit-transition: color 0.3s linear 0.3s;
+  transition: color 0.3s linear 0.3s;
+}
+
+.my-cv .personal-project .project-sub {
+  padding-left: 43px;
+  padding-top: 10px;
+}
+
+.my-cv i {
+  color: #2ebcae;
+}
+
+.my-cv .banner {
+  color: #2ebcae;
+  text-transform: uppercase;
+  border-bottom: thin solid;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.my-cv .education {
+  word-break: break-word;
+}
+
+.my-cv .footer-hide {
+  margin-top: 200px;
+  visibility: hidden;
+}
+
+.my-cv .ul-project {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .my-cv #timeline {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+  }
+  .my-cv label {
+    width: 85%;
+    font-size: 1.1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    -webkit-transform: translateX(18px);
+            transform: translateX(18px);
+  }
+  .my-cv .content:before {
+    border: solid transparent;
+    bottom: 100%;
+    border-bottom-color: inherit;
+    border-width: 17px;
+    top: -16px;
+    left: 50px;
+    margin-left: -17px;
+  }
+  .my-cv .content:after {
+    border: solid transparent;
+    bottom: 100%;
+    border-bottom-color: #48b379;
+    border-width: 20px;
+    top: -20px;
+    left: 50px;
+    margin-left: -20px;
+  }
+  .my-cv .content p {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  .my-cv .circle {
+    display: none;
+  }
+  .my-cv .date {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
