@@ -189,7 +189,7 @@ ul li::before {
 }
 
 .content {
-    max-height: 280px;
+    max-height: 390px;
     padding: 10px;
     border-radius: 0.5em;
     position: relative;
@@ -253,7 +253,7 @@ label {
 }
 
 .radio:checked~.content {
-    max-height: 280px;
+    max-height: 390px;
     border-color: #f98262;
     margin-right: 20px;
     transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
@@ -315,4 +315,26 @@ label {
 .footer-hide {
     margin-top: 200px;
     visibility: hidden;
+}
+
+.ul-project{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+#timeline .ul-project li{
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+
+#timeline .ul-project li::marker{
+    font-size: unset;
+    content: "\2022";
+    color: #2ebcae;
+    font-weight: bold;
+
+    display: inline-block;
+    width: 10px;
+    margin-left: -1em;
 }
