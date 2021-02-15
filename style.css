@@ -160,6 +160,10 @@
   color: silver;
 }
 
+.my-cv .team-project .time-line-box .timeline .date .date-time {
+  text-decoration: underline;
+}
+
 .my-cv .team-project .time-line-box .timeline .circle {
   margin-top: -10px;
   top: 50%;
