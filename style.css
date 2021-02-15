@@ -107,7 +107,7 @@
 
 .my-cv .sub-skill {
   width: 100%;
-  padding-left: 70px;
+  padding-left: 40px;
 }
 
 .my-cv .team-project {
@@ -122,28 +122,25 @@
   content: unset;
 }
 
-.my-cv .team-project .time-line-box #timeline {
+.my-cv .team-project .time-line-box .timeline {
   list-style: none;
-  margin-left: 120px;
-  padding-left: 30px;
-  border-left: 8px solid silver;
 }
 
-.my-cv .team-project .time-line-box #timeline li {
-  margin-top: 10px;
+.my-cv .team-project .time-line-box .timeline li:not(:first-child) {
+  margin-top: 20px;
   position: relative;
 }
 
-.my-cv .team-project .time-line-box #timeline p {
+.my-cv .team-project .time-line-box .timeline p {
   margin: 0 0 15px;
 }
 
-.my-cv .team-project .time-line-box #timeline .ul-project li {
+.my-cv .team-project .time-line-box .timeline .ul-project li {
   margin-top: 0;
   padding-left: 8px;
 }
 
-.my-cv .team-project .time-line-box #timeline .ul-project li::marker {
+.my-cv .team-project .time-line-box .timeline .ul-project li::marker {
   font-size: unset;
   content: "\2022";
   color: #2ebcae;
@@ -153,17 +150,17 @@
   margin-left: -1em;
 }
 
-.my-cv .team-project .time-line-box #timeline .date {
-  margin-top: -10px;
-  top: 50%;
-  left: -160px;
-  font-size: 13px;
-  line-height: 20px;
-  position: absolute;
-  font-weight: bold;
+.my-cv .team-project .time-line-box .timeline .date {
+  font-size: 22px;
+  font-weight: 500;
+  color: silver;
 }
 
-.my-cv .team-project .time-line-box #timeline .circle {
+.my-cv .team-project .time-line-box .timeline .date i {
+  color: silver;
+}
+
+.my-cv .team-project .time-line-box .timeline .circle {
   margin-top: -10px;
   top: 50%;
   left: -44px;
@@ -176,44 +173,7 @@
   position: absolute;
 }
 
-.my-cv .team-project .time-line-box #timeline .content {
-  max-height: 390px;
-  padding: 10px;
-  border-radius: 0.5em;
-  position: relative;
-  width: 100%;
-  border: thin solid #2ebcae;
-}
-
-.my-cv .team-project .time-line-box #timeline .content:before {
-  content: "";
-  width: 0;
-  height: 0;
-  border: solid transparent;
-  position: absolute;
-  pointer-events: none;
-  right: 100%;
-  border-right-color: inherit;
-  border-width: 10px;
-  top: 50%;
-  margin-top: -10px;
-}
-
-.my-cv .team-project .time-line-box #timeline .content:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border: solid transparent;
-  position: absolute;
-  pointer-events: none;
-  right: 100%;
-  border-right-color: #2ebcae;
-  border-width: 9px;
-  top: 50%;
-  margin-top: -9px;
-}
-
-.my-cv .team-project .time-line-box #timeline .content p {
+.my-cv .team-project .time-line-box .timeline .content p {
   max-height: 0;
   color: transparent;
   text-align: justify;
@@ -222,50 +182,6 @@
       -ms-hyphens: auto;
           hyphens: auto;
   overflow: hidden;
-}
-
-.my-cv .team-project .time-line-box #timeline label {
-  font-size: 1.3em;
-  position: absolute;
-  z-index: 100;
-  cursor: pointer;
-  top: 20px;
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
-}
-
-.my-cv .team-project .time-line-box #timeline .radio {
-  display: none;
-}
-
-.my-cv .team-project .time-line-box #timeline .radio:checked + .relative label {
-  cursor: auto;
-  -webkit-transform: translateX(42px);
-          transform: translateX(42px);
-}
-
-.my-cv .team-project .time-line-box #timeline .radio:checked + .relative .circle {
-  background: #f98262;
-}
-
-.my-cv .team-project .time-line-box #timeline .radio:checked ~ .content {
-  max-height: 390px;
-  border-color: #f98262;
-  margin-right: 20px;
-  -webkit-transition: max-height 0.4s linear, border-color 0.5s linear, -webkit-transform 0.2s linear;
-  transition: max-height 0.4s linear, border-color 0.5s linear, -webkit-transform 0.2s linear;
-  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
-  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear, -webkit-transform 0.2s linear;
-  width: 100%;
-}
-
-.my-cv .team-project .time-line-box #timeline .radio:checked ~ .content p {
-  max-height: 200px;
-  color: #eee9dc;
-  -webkit-transition: color 0.3s linear 0.3s;
-  transition: color 0.3s linear 0.3s;
 }
 
 .my-cv .personal-project .project-sub {

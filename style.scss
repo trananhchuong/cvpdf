@@ -103,7 +103,7 @@
 
     .sub-skill {
         width: 100%;
-        padding-left: 70px;
+        padding-left: 40px;
     }
 
     .team-project {
@@ -119,15 +119,14 @@
             }
             padding: 10px;
 
-            #timeline {
+            .timeline {
                 list-style: none;
-                margin-left: 120px;
-                padding-left: 30px;
-                border-left: 8px solid silver;
-                li {
-                    margin-top: 10px;
+
+                li:not(:first-child) {
+                    margin-top: 20px;
                     position: relative;
                 }
+
                 p {
                     margin: 0 0 15px;
                 }
@@ -149,13 +148,13 @@
                 }
 
                 .date {
-                    margin-top: -10px;
-                    top: 50%;
-                    left: -160px;
-                    font-size: 13px;
-                    line-height: 20px;
-                    position: absolute;
-                    font-weight: bold;
+                    font-size: 22px;
+                    font-weight: 500;
+                    color: silver;
+
+                    i{
+                        color: silver;
+                    }
                 }
                 .circle {
                     margin-top: -10px;
@@ -170,38 +169,6 @@
                     position: absolute;
                 }
                 .content {
-                    max-height: 390px;
-                    padding: 10px;
-                    border-radius: 0.5em;
-                    position: relative;
-                    width: 100%;
-                    border: thin solid #2ebcae;
-                    &:before {
-                        content: "";
-                        width: 0;
-                        height: 0;
-                        border: solid transparent;
-                        position: absolute;
-                        pointer-events: none;
-                        right: 100%;
-                        border-right-color: inherit;
-                        border-width: 10px;
-                        top: 50%;
-                        margin-top: -10px;
-                    }
-                    &:after {
-                        content: "";
-                        width: 0;
-                        height: 0;
-                        border: solid transparent;
-                        position: absolute;
-                        pointer-events: none;
-                        right: 100%;
-                        border-right-color: #2ebcae;
-                        border-width: 9px;
-                        top: 50%;
-                        margin-top: -9px;
-                    }
                     p {
                         max-height: 0;
                         color: transparent;
@@ -209,40 +176,6 @@
                         word-break: break-word;
                         hyphens: auto;
                         overflow: hidden;
-                    }
-                }
-
-                label {
-                    font-size: 1.3em;
-                    position: absolute;
-                    z-index: 100;
-                    cursor: pointer;
-                    top: 20px;
-                    transition: transform 0.2s linear;
-                }
-
-                .radio {
-                    display: none;
-                    &:checked + .relative {
-                        label {
-                            cursor: auto;
-                            transform: translateX(42px);
-                        }
-                        .circle {
-                            background: #f98262;
-                        }
-                    }
-                    &:checked ~ .content {
-                        max-height: 390px;
-                        border-color: #f98262;
-                        margin-right: 20px;
-                        transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
-                        width: 100%;
-                        p {
-                            max-height: 200px;
-                            color: #eee9dc;
-                            transition: color 0.3s linear 0.3s;
-                        }
                     }
                 }
             }
