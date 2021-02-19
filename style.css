@@ -208,11 +208,6 @@
   word-break: break-word;
 }
 
-.my-cv .footer-hide {
-  margin-top: 200px;
-  visibility: hidden;
-}
-
 .my-cv .ul-project {
   list-style-type: circle;
   padding-left: 20px;
