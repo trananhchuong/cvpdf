@@ -190,6 +190,20 @@
   padding-top: 10px;
 }
 
+.my-cv .work-experience .timeline .work::before {
+  content: none;
+}
+
+.my-cv .work-experience .timeline .work .date {
+  font-size: 22px;
+  font-weight: 500;
+  color: silver;
+}
+
+.my-cv .work-experience .timeline .work .date i {
+  color: silver;
+}
+
 .my-cv i {
   color: #2ebcae;
 }

@@ -5,9 +5,6 @@
 }
 
 .my-cv {
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
     margin-bottom: 10px;
 
     ul {
@@ -189,6 +186,25 @@
         .project-sub {
             padding-left: 43px;
             padding-top: 10px;
+        }
+    }
+
+    .work-experience {
+        .timeline {
+            .work {
+                &::before {
+                    content: none;
+                }
+                .date {
+                    font-size: 22px;
+                    font-weight: 500;
+                    color: silver;
+                    
+                    i{
+                        color: silver;
+                    }
+                }
+            }
         }
     }
 
