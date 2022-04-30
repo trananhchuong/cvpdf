@@ -153,6 +153,14 @@
   color: silver;
 }
 
+.my-cv .team-project .time-line-box .timeline .date.active i {
+  color: #2ebcae;
+}
+
+.my-cv .team-project .time-line-box .timeline .date.active .date-time {
+  color: #2ebcae;
+}
+
 .my-cv .team-project .time-line-box .timeline .date i {
   color: silver;
 }
