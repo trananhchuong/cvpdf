@@ -1,9 +1,15 @@
 ### Objective
 
-- Tìm kiếm môi trường làm việc chuyên nghiệp để phát triển sự nghiệp
+- Tìm kiếm môi trường làm việc chuyên nghiệp để phát triển bản thân
 - Trau dồi kĩ năng lập trình web
-- Định hướng trở thành blockchain developer
 - Ứng dụng kiến thức để tạo ra sản phẩm làm hạnh phúc người dùng là niềm hạnh phúc của bản thân
+- Định hướng trở thành blockchain developer
+
+
+Tìm kiếm môi trường làm việc chuyên nghiệp để phát triển bản thân và trau dồi kĩ năng lập trình web, với tiêu chí "Ứng dụng kiến thức để tạo ra sản phẩm làm hạnh phúc người dùng là niềm hạnh phúc của bản thân". Định hướng trở thành blockchain developer trong tương lại
+
+
+Looking for a professional working environment to develop myself and my web programming skills, with the criterion "Applying knowledge to create products that make users happy is my happiness". Orientation to become a blockchain developer in the future.
 
 ### Skills
 
@@ -11,12 +17,9 @@
   JavaScript, ReactJS, Nextjs, TypeScript, Redux, HTML, CSS, SCSS/SASS
 - Back-end:
   .NET Core, Rest-ful API, NodeJS
-
 - Software Architecture:
   OOP, MVC
-
 - Source control: GitLab, Github.
-
 ### TEAM PROJECT
 
 #### Docosan Vietnam - Ho Chi Minh City
@@ -25,7 +28,7 @@
 
     Description:
     - Company's products, a digital marketplace that lets patients compare healthcare providers across a wide range of specialties, book appointments online 24/7
-    - Ngoài ra hệ thống hỗ trợ bác sĩ / bệnh nhân tham gia cuộc hẹn trực tuyến, chat hỗ trợ bệnh nhân tốt hơn
+    - Support doctors / patients to join online appointments, chat for better patient support
 
     Main responsibilities:
     - Develop new feature of product: real-time chat and video calls, appointment booking flow

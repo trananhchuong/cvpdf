@@ -91,6 +91,10 @@
   padding: 0;
 }
 
+.my-cv .sub-skill__list {
+  padding-left: 0;
+}
+
 .my-cv .technical-skills {
   margin-top: 29px;
 }
@@ -100,11 +104,6 @@
   font-weight: 500;
   color: #2ebcae;
   text-transform: uppercase;
-}
-
-.my-cv .sub-skill {
-  width: 100%;
-  padding-left: 40px;
 }
 
 .my-cv .team-project {
@@ -198,6 +197,14 @@
   padding-top: 10px;
 }
 
+.my-cv .personal-project .project-sub ul {
+  padding-left: 0;
+}
+
+.my-cv .personal-project .project-sub ul li::before {
+  content: "";
+}
+
 .my-cv .work-experience .timeline .work::before {
   content: none;
 }
@@ -221,13 +228,25 @@
   text-transform: uppercase;
   border-bottom: thin solid;
   width: 100%;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 500;
-  padding-left: 30px;
 }
 
-.my-cv .education {
+.my-cv .work-item__box .position-time {
+  font-weight: 600;
+}
+
+.my-cv .work-item__box .title {
+  text-transform: capitalize;
+}
+
+.my-cv .work-item__box .education {
   word-break: break-word;
+}
+
+.my-cv .header-title {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .my-cv .ul-project {
