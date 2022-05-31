@@ -5,9 +5,7 @@
 - Ứng dụng kiến thức để tạo ra sản phẩm làm hạnh phúc người dùng là niềm hạnh phúc của bản thân
 - Định hướng trở thành blockchain developer
 
-
 Tìm kiếm môi trường làm việc chuyên nghiệp để phát triển bản thân và trau dồi kĩ năng lập trình web, với tiêu chí "Ứng dụng kiến thức để tạo ra sản phẩm làm hạnh phúc người dùng là niềm hạnh phúc của bản thân". Định hướng trở thành blockchain developer trong tương lại
-
 
 Looking for a professional working environment to develop myself and my web programming skills, with the criterion "Applying knowledge to create products that make users happy is my happiness". Orientation to become a blockchain developer in the future.
 
@@ -20,6 +18,7 @@ Looking for a professional working environment to develop myself and my web prog
 - Software Architecture:
   OOP, MVC
 - Source control: GitLab, Github.
+
 ### TEAM PROJECT
 
 #### Docosan Vietnam - Ho Chi Minh City
@@ -71,7 +70,46 @@ Looking for a professional working environment to develop myself and my web prog
     - Cải thiện kỹ năng nghe tiếng Anh
     - Kỹ năng giải quyết vấn đề & tham gia xây dựng hệ thống: phản hồi requirement, UI & estimate time
 
-<!--
-    CV:
-    - C# & (DATABASE & DATA STRUCTURES AND ALGORITHMS) tóm tắt lại
-    - Highlinght Technologies mới: tiếp xúc công nghệ nào -->
+
+
+### Prepare for interview 
+### Introduce yourself
+
+    - Present: Talk a little bit about what your current role is, the scope of it, and perhaps a big recent accomplishment.
+    - Past: Tell the interviewer how you got there and/or mention previous experience that’s relevant to the job and company you’re applying for.
+    - Future: Segue into what you’re looking to do next and why you’re interested in this gig (and a great fit for it, too).
+
+
+    - Hiện tại:
+        - Làm việc cho công ty startup của Mỹ về lĩnh vực y tế 
+        - Vị trí: Front-end developer 
+        - Quy trình làm việc: 
+            - Nhận UI (figma) từ designer
+            - Nhận requirement (pdf file) từ PM 
+            - Estimate thời gian dev + unit test + fix bug trên staging
+
+        - Tại docosan học được:
+            - Kiến thức chuyên ngành:
+                - Nextjs 
+                - Unit-test 
+                - Research và ứng dụng vào dự án: agora, cypress 
+                - Teamleader FE (2 weeks ago): estimate time, review code 
+
+            - Môi trường startup phải thích ứng linh hoạt
+            - Kĩ năng giải quyết vấn đề: 
+                - Phân tích requirement, lên plan và đưa ra estimate
+                - Tham gia xây dựng product: nếu nghiệp vụ confict sẽ raise lên cho lead & pm
+    
+    - Trước đó:
+        - Làm việc idtek gần 2 năm
+        - Công ty outsource trải qua nhiều dự án:
+            - Học FE: Reactjs
+            - Học BE: .NET core viết restful API
+        - Tại idtek học được:
+            - Quy trình tạo ra phần mềm: dựng database, integrate api giữa FE & BE
+            - Deloy: IIS
+        
+    - Tương lai:
+        - Blockchain là công nghệ tương lai
+        - Muốn tìm hiểu và ứng dụng kiến thức mình học được để tạo ra sản phẩm mang đến happy cho người dùng
+        - Đó là lí do muốn tìm kiếm môi trường mới 
