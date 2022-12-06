@@ -299,4 +299,9 @@
     display: none;
   }
 }
+
+.my-cv .responsibilities .team-title {
+  margin: 8px 0;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
