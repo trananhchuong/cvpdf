@@ -81,25 +81,10 @@
     .banner {
       padding: 0;
     }
-
-    .sub-skill {
-      padding: 0;
-    }
-  }
-
-  .sub-skill__list {
-    padding-left: 0;
   }
 
   .technical-skills {
     margin-top: 29px;
-
-    .skill {
-      font-size: 18px;
-      font-weight: 500;
-      color: #2ebcae;
-      text-transform: uppercase;
-    }
   }
 
   .team-project {
@@ -306,10 +291,30 @@
     }
   }
 
-  .responsibilities {
-    .team-title {
-      margin: 8px 0;
-      font-weight: 500;
+  .response-item {
+    margin-left: 16px;
+
+    &::before {
+      content: "\2022";
+      color: #2ebcae;
+      font-weight: bold;
+      display: inline-block;
+      width: 10px;
+      margin-left: -1em;
+    }
+  }
+
+  .tech-skills__box {
+    .skill-box {
+      margin-top: 8px;
+
+      .title-skill {
+        font-weight: 600;
+      }
+
+      .content-skill{
+        margin-left: 10px;
+      }
     }
   }
 }

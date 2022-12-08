@@ -87,23 +87,8 @@
   padding: 0;
 }
 
-.my-cv .personal-info .sub-skill {
-  padding: 0;
-}
-
-.my-cv .sub-skill__list {
-  padding-left: 0;
-}
-
 .my-cv .technical-skills {
   margin-top: 29px;
-}
-
-.my-cv .technical-skills .skill {
-  font-size: 18px;
-  font-weight: 500;
-  color: #2ebcae;
-  text-transform: uppercase;
 }
 
 .my-cv .team-project {
@@ -300,8 +285,28 @@
   }
 }
 
-.my-cv .responsibilities .team-title {
-  margin: 8px 0;
-  font-weight: 500;
+.my-cv .response-item {
+  margin-left: 16px;
+}
+
+.my-cv .response-item::before {
+  content: "\2022";
+  color: #2ebcae;
+  font-weight: bold;
+  display: inline-block;
+  width: 10px;
+  margin-left: -1em;
+}
+
+.my-cv .tech-skills__box .skill-box {
+  margin-top: 8px;
+}
+
+.my-cv .tech-skills__box .skill-box .title-skill {
+  font-weight: 600;
+}
+
+.my-cv .tech-skills__box .skill-box .content-skill {
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
