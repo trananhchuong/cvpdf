@@ -304,6 +304,19 @@
     }
   }
 
+  .response-item-child {
+    margin-left: 16px;
+
+    &::before {
+      content: "\2022";
+      color: #212529;
+      font-weight: bold;
+      display: inline-block;
+      width: 10px;
+      margin-left: -1em;
+    }
+  }
+
   .tech-skills__box {
     .skill-box {
       margin-top: 8px;
@@ -311,10 +324,14 @@
       .title-skill {
         font-weight: 600;
       }
+    }
+  }
 
-      .content-skill{
-        margin-left: 10px;
-      }
+  .soft_skills {
+    display: flex;
+    flex-wrap: wrap;
+    .skill-box {
+      margin-right: 16px;
     }
   }
 }

@@ -298,6 +298,19 @@
   margin-left: -1em;
 }
 
+.my-cv .response-item-child {
+  margin-left: 16px;
+}
+
+.my-cv .response-item-child::before {
+  content: "\2022";
+  color: #212529;
+  font-weight: bold;
+  display: inline-block;
+  width: 10px;
+  margin-left: -1em;
+}
+
 .my-cv .tech-skills__box .skill-box {
   margin-top: 8px;
 }
@@ -306,7 +319,15 @@
   font-weight: 600;
 }
 
-.my-cv .tech-skills__box .skill-box .content-skill {
-  margin-left: 10px;
+.my-cv .soft_skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.my-cv .soft_skills .skill-box {
+  margin-right: 16px;
 }
 /*# sourceMappingURL=style.css.map */
